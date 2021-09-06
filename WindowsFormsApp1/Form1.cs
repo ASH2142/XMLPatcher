@@ -36,7 +36,7 @@ namespace WindowsFormsApp1
 
             if (!textBox_INN.Text.Contains("Введите ИННЮЛ"))
             {
-                label7.Text = "Файл уже готов к отправке";
+                label7.Text = "Файл уже готов к отправке.";
                 label7.Visible = true;
                 label7.ForeColor = Color.Red;
             }
